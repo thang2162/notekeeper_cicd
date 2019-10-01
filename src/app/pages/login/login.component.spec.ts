@@ -79,7 +79,7 @@ describe('LoginComponent', () => {
 
    expect(component.loginUser()).toHaveBeenCalled;
 
-   accountService.loginUser("netguy87@gmail.com", "123456").subscribe(
+   accountService.loginUser("email@example.com", "123456").subscribe(
      (res) => {
        expect(res.status).toEqual('failed')
      }
