@@ -47,7 +47,7 @@ describe('workspace-project App', () => {
 
     browser.sleep(5000);
 
-    page.getElementByBtnTxt('Confirm Delete').click();;
+    page.getElementByBtnTxt('Confirm Delete').click();
 
     browser.sleep(5000);
 

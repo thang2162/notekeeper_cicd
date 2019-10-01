@@ -22,7 +22,7 @@ export class AppPage {
   }
 
   getElementByBinding(name: string) {
-    return element(by.binding(name)); 
+    return element(by.binding(name));
   }
 
   getTitleText() {
