@@ -62,5 +62,5 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        source: "/home/runner/work/notebook_cicd/notebook_cicd/dist/notekeeper"
+        source: "/home/runner/work/notebook_cicd/notebook_cicd/dist/"
         target: ${{ secrets.TARGET }}
