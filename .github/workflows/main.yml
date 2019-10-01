@@ -38,7 +38,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           whoami
-          ls -al
+#          ls -al
      - name: copy file via ssh password
        uses: appleboy/scp-action@master
        with:
