@@ -2,8 +2,8 @@ name: remote ssh command
 on: [push]
 jobs:
 
-  build:
-    name: Build
+  prepare:
+    name: Prepare
     runs-on: ubuntu-latest
     steps:
     - name: multiple command
