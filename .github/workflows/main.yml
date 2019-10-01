@@ -1,17 +1,12 @@
-# GitHub Actions docs
-# https://help.github.com/en/articles/about-github-actions
-# https://help.github.com/en/articles/workflow-syntax-for-github-actions
-name: CI
-
+name: remote ssh command
 on: [push]
-
 jobs:
 
-  prepare:
-    name: Prepare
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-  - name: multiple command
+    - name: multiple command
     uses: appleboy/ssh-action@master
     with:
       host: ${{ secrets.HOST }}
@@ -20,3 +15,4 @@ jobs:
       script: |
         whoami
         ls -al
+  
