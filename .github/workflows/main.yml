@@ -45,6 +45,7 @@ jobs:
         script: |
           whoami
           ls -al
+          rm -rf notekeeper_cicd
 
   deploy:
     name: Deploy
