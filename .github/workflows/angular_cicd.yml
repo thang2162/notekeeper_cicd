@@ -10,7 +10,6 @@ jobs:
   prepare:
     name: Prepare
     runs-on: ubuntu-latest
-  #  needs: build
     steps:
   - name: multiple command
     uses: appleboy/ssh-action@master
