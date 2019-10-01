@@ -63,4 +63,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         source: "/home/runner/work/notebook_cicd/notebook_cicd"
-         target: ${{ secrets.TARGET }}
+        target: ${{ secrets.TARGET }}
